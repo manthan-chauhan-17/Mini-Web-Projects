@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+}
+.glass{
+    color: #1e1e1e;
+    height: 70vh;
+    width: 60%;
+    border: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255,0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+h1{
+    text-align: center;
+    margin-top: 25%;
+}
